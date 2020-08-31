@@ -13,11 +13,18 @@ public class Main implements Directions {
      */
     public static void main(String[] args) {
 //        new JerooGUI();
-        runJerooCode();method main()
-{
+        runJerooCode();
    // instantiate the Jeroo (i.e. create it) 
    // and then make a remote control pointing to it called kim
-   Jeroo kim = new Jeroo(0, 0, EAST, 5);
+    }
+
+
+
+    /**
+     * Put your main Jeroo code here.
+     */
+    public static void runJerooCode() {
+     Jeroo kim = new Jeroo(0, 0, EAST, 5);
    kim.hop();
    kim.hop();
    kim.hop();
@@ -25,14 +32,6 @@ public class Main implements Directions {
    kim.hop();
    kim.plant();
    kim.hop();
-}
-    }
-
-    /**
-     * Put your main Jeroo code here.
-     */
-    public static void runJerooCode() {
-     
     }
 
 }
